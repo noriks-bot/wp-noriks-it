@@ -923,7 +923,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     $is_boxers = has_term( array( 'bokserice', 'orto-bokserice' , 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id );
 
                     if ($is_boxers):
-                      $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . "€ po boksericama";
+                      $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . "€ per boxer";
                     else:
                       $topseler_text = get_field("singlepp_priceper_before","options") . " " . $tmp_price . " " . get_field("singlepp_priceper_after","options");
                     endif;

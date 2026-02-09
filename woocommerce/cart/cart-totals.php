@@ -113,8 +113,8 @@ defined( 'ABSPATH' ) || exit;
 	<div class="wc-proceed-to-checkout">
 		<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 		
-		<a href="/hr/shop/" class="checkout-button button continue-shopping-button">
-	Nastavi kupovino</a>
+		<a href="/it/shop/" class="checkout-button button continue-shopping-button">
+	Continua lo shopping</a>
 		
 	</div>
 

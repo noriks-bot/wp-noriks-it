@@ -267,8 +267,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         
                     <!--
                     <div class="dropdown-menu">
-                        <a href="/hr/shop">Sastavi svoj paket</a>
-                        <a href="/hr/product-category/bundles/">Gotovi paketi</a>
+                        <a href="/it/shop">Crea il tuo pacchetto</a>
+                        <a href="/it/product-category/bundles/">Pacchetti pronti</a>
                     </div>
                     -->
                 </div>
@@ -281,8 +281,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     </a>
                     <!--
                     <div class="dropdown-menu">
-                        <a href="/hr/product-category/bokserice-sastavi-paket/">Sastavi svoj paket</a>
-                        <a href="/hr/product-category/bokserice/">Gotovi paketi</a>
+                        <a href="/it/product-category/boxer-crea-pacchetto/">Crea il tuo pacchetto</a>
+                        <a href="/it/product-category/boxer/">Pacchetti pronti</a>
                     </div>
                     -->
                 </div>
