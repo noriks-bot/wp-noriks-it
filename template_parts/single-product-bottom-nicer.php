@@ -11,7 +11,7 @@ if (  has_term( array( 'pacchetto-starter','orto-starter' ), 'product_cat', get_
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-          <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-1_Cz.png">
+          <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-1_IT.png">
       </div>
     </div>
 
@@ -72,7 +72,7 @@ PERCHÉ LE PERSONE SCELGONO IL PACCHETTO STARTER?
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-           <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-2_cz.png">
+           <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-2_IT.png">
       </div>
     </div>
 
@@ -130,7 +130,7 @@ LA COMBINAZIONE CHE INDOSSI OGNI GIORNO
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-          <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-3_cz.png">
+          <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-3_IT.png">
       </div>
     </div>
 
@@ -201,7 +201,7 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
         <video
           autoplay muted loop playsinline
           class="why-video">
-          <source src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_gif_cz_2-1.mp4" type="video/mp4">
+          <source src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_gif_it_2-1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -429,7 +429,7 @@ Taglio flessibile per cosce più robuste
 
     <!-- Left Video -->
     <div class="why-col">
-       <img src="https://noriks.com/it/wp-content/uploads/2026/01/prednosti-in-lastnosti2_cz.png">
+       <img src="https://noriks.com/it/wp-content/uploads/2026/01/prednosti-in-lastnosti2_IT.png">
     </div>
 
     <!-- Right Content -->

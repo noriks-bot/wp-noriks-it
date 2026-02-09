@@ -473,7 +473,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
            <?php if( $is_boxers ): ?>
        
         
-          <img src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_Cz.png">
+          <img src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_IT.png">
           
           
           
@@ -481,18 +481,18 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
         <?php elseif(  $is_carape ): ?>
         
         
-                  <img src="https://noriks.com/it/wp-content/uploads/2026/01/Nogavice_tabela_velikosti_Cz.png">
+                  <img src="https://noriks.com/it/wp-content/uploads/2026/01/Nogavice_tabela_velikosti_IT.png">
                   
     <?php elseif(  $is_mixed_bundle ): ?>
     
-     <img src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_tablica_cz.jpg">
+     <img src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_tablica_it.jpg">
         
-         <img src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_Cz.png">
+         <img src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_IT.png">
           
           <?php else: ?>
       
       
-     <img src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_tablica_cz.jpg">
+     <img src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_tablica_it.jpg">
         
         
             

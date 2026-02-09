@@ -106,7 +106,7 @@
     
     style="margin-top: 70px;margin-bottom: 70px;"
     
-      src="https://noriks.com/cz/wp-content/uploads/2026/01/boxers_size_Cz.png"
+      src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_IT.png"
       alt="Size Guide">
       
       
@@ -118,7 +118,7 @@
     
     style="margin-top: 70px;margin-bottom: 70px;"
     
-      src="https://noriks.com/cz/wp-content/uploads/2026/01/Nogavice_tabela_velikosti_Cz.png"
+      src="https://noriks.com/it/wp-content/uploads/2026/01/Nogavice_tabela_velikosti_IT.png"
       alt="Size Guide">
       
       
@@ -130,7 +130,7 @@
     
     style="margin-top: 35px;margin-bottom: 0px;"
     
-      src="/cz/wp-content/uploads/2025/09/noriks_tablica_cz.jpg"
+      src="/it/wp-content/uploads/2025/09/noriks_tablica_it.jpg"
       alt="Size Guide">
       
       
@@ -138,7 +138,7 @@
     
     style="margin-top: 0px;margin-bottom: 0px;"
     
-      src="https://noriks.com/cz/wp-content/uploads/2026/01/boxers_size_Cz.png"
+      src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_IT.png"
       alt="Size Guide">
      
       
@@ -150,7 +150,7 @@
     
     style="margin-top: 70px;margin-bottom: 70px;"
     
-      src="/cz/wp-content/uploads/2025/09/noriks_tablica_cz.jpg"
+      src="/it/wp-content/uploads/2025/09/noriks_tablica_it.jpg"
       alt="Size Guide">
       
       <?php endif; ?>
