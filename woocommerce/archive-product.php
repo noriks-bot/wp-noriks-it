@@ -49,19 +49,19 @@ function is_active_menu_item( $path ) {
       <a href="/it/shop">Tutti i prodotti</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/tricka') ? 'active' : ''; ?>">
+    <li class="<?php echo is_active_menu_item('/product-category/magliette') ? 'active' : ''; ?>">
       <a href="/it/product-category/magliette/">Magliette</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/boxerky') ? 'active' : ''; ?>">
+    <li class="<?php echo is_active_menu_item('/product-category/boxer') ? 'active' : ''; ?>">
       <a href="/it/product-category/boxer/">Boxer</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/sady') ? 'active' : ''; ?>">
+    <li class="<?php echo is_active_menu_item('/product-category/set') ? 'active' : ''; ?>">
       <a href="/it/product-category/set/">Set</a>
     </li>
 
-    <li class="<?php echo is_active_menu_item('/product-category/ponozky') ? 'active' : ''; ?>">
+    <li class="<?php echo is_active_menu_item('/product-category/calzini') ? 'active' : ''; ?>">
       <a href="/it/product-category/calzini/">Calzini</a>
     </li>
   </ul>

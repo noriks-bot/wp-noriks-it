@@ -18,7 +18,7 @@ function my_add_price_to_button_text( $text, $prod = null ) {
     }
 
     // If product is in category "orto", return default text (unchanged)
-    if ( has_term( array( 'startovaci-balicek','orto' ), 'product_cat', $prod->get_id() ) ) {
+    if ( has_term( array( 'pacchetto-starter','orto' ), 'product_cat', $prod->get_id() ) ) {
         return $text;
     }
 

@@ -1,6 +1,6 @@
 
-<?php 
-if (  has_term( array( 'pacchetto-starter','orto-starter' ), 'product_cat', get_the_id() )  )   : 
+<?php
+if (  has_term( array( 'pacchetto-starter','orto-starter' ), 'product_cat', get_the_id() )  )   :
 ?>
 
 
@@ -18,16 +18,16 @@ if (  has_term( array( 'pacchetto-starter','orto-starter' ), 'product_cat', get_
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-PROČ LIDÉ VOLÍ STARTOVACÍ BALÍČEK?
+PERCHÉ LE PERSONE SCELGONO IL PACCHETTO STARTER?
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
         <p  style="    font-style: italic;
-    line-height: 1.2;"  ><strong>“"„Vzal jsem ho, protože jsem si nebyl jistý, jestli mi bude sedět.“
+    line-height: 1.2;"  ><strong>"L'ho preso perché non ero sicuro che mi sarebbe andato bene."
 
 
-</strong><span style="font-weight:normal;">Marko - Zagreb</span></p>
-        <p class="description">Mnoho zákazníků začíná se startovacím balíčkem, protože si chtějí nejdřív ověřit, jak NORIKS sedí a jak se nosí. Jedno tričko a jedny boxerky stačí k rozhodnutí bez velké investice.
+</strong><span style="font-weight:normal;">Marco - Milano</span></p>
+        <p class="description">Molti clienti iniziano con il pacchetto starter perché vogliono prima verificare come veste NORIKS e come si indossa. Una maglietta e un boxer sono sufficienti per decidere senza un grande investimento.
 
 
 
@@ -36,24 +36,24 @@ PROČ LIDÉ VOLÍ STARTOVACÍ BALÍČEK?
 
       <div style="margin-left: 20px;" class="why-point">
         <p  style="    font-style: italic;
-    line-height: 1.2;" ><strong>„Po prvním nošení jsem si hned objednal další.“
+    line-height: 1.2;" ><strong>"Dopo la prima volta che l'ho indossato, ho subito ordinato di nuovo."
 
 
 
-</strong><span style="font-weight:normal;">Pavle - Split</span></p>
-        <p class="description">Více než 95 % zákazníků si po startovacím balíčku objedná znovu. Ne proto, že by to plánovali, ale protože už první den cítí rozdíl ve střihu, pohodlí a kvalitě.
+</strong><span style="font-weight:normal;">Paolo - Roma</span></p>
+        <p class="description">Più del 95% dei clienti riordina dopo il pacchetto starter. Non perché lo avessero pianificato, ma perché già il primo giorno sentono la differenza nel taglio, nel comfort e nella qualità.
 
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
         <p  style="    font-style: italic;
-    line-height: 1.2;"  ><strong>„Materiál a střih mě přesvědčily.“
+    line-height: 1.2;"  ><strong>"Il materiale e il taglio mi hanno convinto."
 
 
 
-</strong><span style="font-weight:normal;">Ante - Pula</span></p>
-        <p class="description">Tričko i boxerky jsou měkké, lehké a příjemné na pokožce. Startovací balíček je nejčastějším důvodem, proč se NORIKS rychle stane součástí každodenního šatníku.
+</strong><span style="font-weight:normal;">Antonio - Napoli</span></p>
+        <p class="description">Sia la maglietta che i boxer sono morbidi, leggeri e piacevoli sulla pelle. Il pacchetto starter è il motivo più comune per cui NORIKS diventa rapidamente parte del guardaroba quotidiano.
 
 
 
@@ -79,37 +79,37 @@ PROČ LIDÉ VOLÍ STARTOVACÍ BALÍČEK?
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-KOMBINACE, KTEROU NOSÍŠ KAŽDÝ DEN
+LA COMBINAZIONE CHE INDOSSI OGNI GIORNO
 
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Navrženo pro celodenní pohodlí
+        <p><strong>Progettato per il comfort tutto il giorno
 
 
 </strong></p>
-        <p class="description">Tričko i boxerky jsou určené k nošení od rána do večera, bez upravování a nepohodlí. Vše drží na svém místě, nestahuje a umožňuje volný pohyb po celý den.
+        <p class="description">Sia la maglietta che i boxer sono pensati per essere indossati dalla mattina alla sera, senza bisogno di aggiustarli e senza fastidi. Tutto rimane al suo posto, non stringe e permette libertà di movimento tutto il giorno.
 
 
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Střih, který spolupracuje s tělem
+        <p><strong>Un taglio che lavora con il corpo
 
 
 </strong></p>
-        <p class="description">Střih trička zvýrazňuje horní část těla, zatímco boxerky poskytují dostatek prostoru a stabilitu bez vyhrnování. Výsledkem je jistý, uvolněný pocit a upravený vzhled v každé situaci.
+        <p class="description">Il taglio della maglietta valorizza la parte superiore del corpo, mentre i boxer offrono spazio sufficiente e stabilità senza arrotolarsi. Il risultato è una sensazione sicura e rilassata e un aspetto curato in ogni situazione.
 
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Kvalita, kterou ucítíš hned
+        <p><strong>Qualità che senti subito
 
 
 </strong></p>
-        <p class="description">Materiály jsou měkké, prodyšné a příjemné na pokožce, aniž by po praní ztrácely tvar. Už při prvním nošení je jasné, proč se tato kombinace rychle stává součástí každodenního šatníku.
+        <p class="description">I materiali sono morbidi, traspiranti e piacevoli sulla pelle, senza perdere la forma dopo il lavaggio. Già dalla prima volta che li indossi, è chiaro perché questa combinazione diventa rapidamente parte del guardaroba quotidiano.
 
 
 </p>
@@ -137,36 +137,36 @@ KOMBINACE, KTEROU NOSÍŠ KAŽDÝ DEN
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-NEJSNADNĚJŠÍ A NEJBEZPEČNĚJŠÍ ZAČÁTEK
+L INIZIO PIÙ SEMPLICE E SICURO
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Nejmenší možná rizika
+        <p><strong>Rischio minimo
 
 
 </strong></p>
-        <p class="description">Protože ti umožní poznat kvalitu bez velké investice. Místo nákupu více kusů dopředu si vezmeš jedno tričko a jedny boxerky — přesně tolik, abys zjistil, jak sedí, jak se nosí a jaký je materiál.
+        <p class="description">Perché ti permette di conoscere la qualità senza un grande investimento. Invece di comprare più pezzi in anticipo, prendi una maglietta e un boxer - quanto basta per capire come vestono, come si indossano e com'è il materiale.
 
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Perfektní způsob, jak začít
+        <p><strong>Il modo perfetto per iniziare
 
 
 </strong></p>
-        <p class="description">Startovací balíček je vytvořen jako první zkušenost, ne jako zásoba. Je dostupný pouze jednou na zákazníka a za speciální cenu, aby bylo rozhodnutí jednoduché a bez přemýšlení.
+        <p class="description">Il pacchetto starter è pensato come prima esperienza, non come scorta. È disponibile solo una volta per cliente e a un prezzo speciale, per rendere la decisione semplice e senza pensieri.
 
 
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Zkušenost, ke které se vracíš
+        <p><strong>Un'esperienza a cui torni
 
 
 </strong></p>
-        <p class="description">Většina mužů pak u NORIKS zůstane, protože pozná rozdíl ve střihu, pohodlí a kvalitě. Ale první krok je právě tento — nejmenší riziko, nejčistší dojem.
+        <p class="description">La maggior parte degli uomini poi resta con NORIKS, perché riconosce la differenza nel taglio, nel comfort e nella qualità. Ma il primo passo è proprio questo - rischio minimo, impressione più chiara.
 </p>
       </div>
     </div>
@@ -184,8 +184,8 @@ NEJSNADNĚJŠÍ A NEJBEZPEČNĚJŠÍ ZAČÁTEK
 
 
 
-<?php 
-if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id() )  ||  has_term( 'set', 'product_cat', get_the_id() )) : 
+<?php
+if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id() )  ||  has_term( 'set', 'product_cat', get_the_id() )) :
 ?>
 
 
@@ -198,8 +198,8 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-        <video 
-          autoplay muted loop playsinline 
+        <video
+          autoplay muted loop playsinline
           class="why-video">
           <source src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_gif_cz_2-1.mp4" type="video/mp4">
           Your browser does not support the video tag.
@@ -233,16 +233,16 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
 </section>
 
 
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 <!-- table section -->
 
-  
-  
+
+
 <section class="comparison-section" style="padding-top: 30px;" >
     <div class="comparison-intro">
      <!-- <h4 class="highlight"><?php echo get_field("_comp_table_t1", "options"); ?></h4>-->
@@ -250,10 +250,10 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
       <p style="    opacity: 0.6;" class="note"><?php echo get_field("_comp_table_t3", "options"); ?></p>
     </div>
   </section>
-  
-  
+
+
 <section class="comparison-table-section">
- 
+
  <div class="comparison-container">
    <table class="comparison-table">
       <thead>
@@ -267,24 +267,24 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
         </tr>
       </thead>
       <tbody>
-          
+
           <?php
           $_comp_table_fieldlines = get_field("_comp_table_fieldlines","options");
           ?>
-          
+
             <?php if ($_comp_table_fieldlines): ?>
              <?php foreach ($_comp_table_fieldlines as $item): ?>
-          
+
                     <tr>
                       <td><?php echo $item['text']; ?></td>
                       <td class="bg-best"><span  style="background: #496d8f;" class="checkmark">✔</span></td>
                       <td class="bg-bad"><span class="crossmark">✖</span></td>
                     </tr>
-                    
+
             <?php endforeach; ?>
         <?php endif; ?>
-       
-       
+
+
       </tbody>
     </table>
 
@@ -302,8 +302,8 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-          <img style="width: 100%;       
-    aspect-ratio: 1/1; 
+          <img style="width: 100%;
+    aspect-ratio: 1/1;
     object-fit: cover;  " src="/hr/wp-content/themes/noriks/img/majice-3 (1).jpeg">
       </div>
     </div>
@@ -311,27 +311,27 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-        PROČ SE Z TOHOTO TRIČKA STANE TVŮJ STANDARD?
+        PERCHÉ QUESTA MAGLIETTA DIVENTERÀ IL TUO STANDARD?
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Navrženo pro skutečný život
+        <p><strong>Progettata per la vita reale
 </strong></p>
-        <p class="description">Toto tričko je určené pro celodenní nošení – od rána do večera. Nevyžaduje žádné upravování ani přemýšlení, jednoduše dobře sedí v každé situaci.
+        <p class="description">Questa maglietta è pensata per essere indossata tutto il giorno - dalla mattina alla sera. Non richiede aggiustamenti né pensieri, semplicemente veste bene in ogni situazione.
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Střih, který rozumí tělu
+        <p><strong>Un taglio che capisce il corpo
 </strong></p>
-        <p class="description">Střih byl vyvíjen tak, aby kopíroval linii těla bez stahování a zvýraznil to správné. Výsledkem je upravený, sebevědomý vzhled bez pocitu nepohodlí.
+        <p class="description">Il taglio è stato sviluppato per seguire la linea del corpo senza stringere e valorizzare ciò che conta. Il risultato è un aspetto curato e sicuro senza sensazione di disagio.
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Rozdíl poznáš už při prvním obléknutí
+        <p><strong>La differenza la senti già dalla prima volta
 </strong></p>
-        <p class="description">Materiál je na pokožce měkký, lehký a prodyšný. Už po prvním nošení je jasné, proč se toto tričko rychle stane tím, po kterém saháš nejčastěji.
+        <p class="description">Il materiale è morbido, leggero e traspirante sulla pelle. Già dopo la prima volta che la indossi, è chiaro perché questa maglietta diventa rapidamente quella a cui ricorri più spesso.
 </p>
       </div>
     </div>
@@ -339,7 +339,7 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
   </div>
 </section>
 
-  
+
 <!-- table section -->
 
 <?php endif; ?>
@@ -360,20 +360,20 @@ if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id()
     .why-container  {
     max-width: 1440px !important;
 }
-    
+
 </style>
 
 
-<?php 
-if(  get_the_ID() == 39181 ): 
+<?php
+if(  get_the_ID() == 39181 ):
 ?>
 
 
 <!-- invlude video views here -->
 
 
-<?php 
-endif; 
+<?php
+endif;
 ?>
 
 
@@ -399,17 +399,17 @@ endif;
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-Flexibilní střih pro silnější stehna
+Taglio flessibile per cosce più robuste
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Celodenní pohodlí
+        <p><strong>Comfort tutto il giorno
 </strong></p>
-        <p class="description">Speciálně navrženo pro muže s mohutnějšími stehny. Elastický a pružný materiál poskytuje maximální komfort bez stahování nebo nepříjemného tlaku v pase. Spodní prádlo zůstává na místě a nevyhrnuje se, takže se můžete celý den volně pohybovat.</p>
+        <p class="description">Appositamente progettato per uomini con cosce più robuste. Il materiale elastico e flessibile offre il massimo comfort senza stringere o creare pressione fastidiosa in vita. L'intimo rimane al suo posto e non si arrotola, così puoi muoverti liberamente tutto il giorno.</p>
       </div>
 
-    
-    
+
+
     </div>
 
   </div>
@@ -435,30 +435,30 @@ Flexibilní střih pro silnější stehna
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-      Menší opotřebení a poškození
+      Meno usura e danni
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Super odolné 💪
+        <p><strong>Super resistenti 💪
 </strong></p>
-        <p class="description">"Zapomeňte na prádlo, které se rychle roztrhá.
-Šortky NORIKS jsou vyrobeny z pevnějšího materiálu – vydrží déle a ušetří vám zbytečné cesty do obchodu."
+        <p class="description">"Dimentica l'intimo che si strappa velocemente.
+I boxer NORIKS sono realizzati con un materiale più resistente - durano più a lungo e ti risparmiano inutili viaggi al negozio."
 </p>
       </div>
 
       <div style="margin-left: 20px;" class="why-point">
-        
-        
+
+
         <p class="description">
-        
-        ✅ Méně trhání <br/>
-        ✅ Méně pocení <br/>
-        ✅ Pohodlí po celý den <br/>
-                
+
+        ✅ Meno strappi <br/>
+        ✅ Meno sudorazione <br/>
+        ✅ Comfort tutto il giorno <br/>
+
         </p>
       </div>
 
-     
+
     </div>
 
   </div>
@@ -477,24 +477,24 @@ Flexibilní střih pro silnější stehna
 
     <!-- Left Video -->
     <div class="why-col">
-       <img style="width: 100%;       
-    aspect-ratio: 1/1; 
+       <img style="width: 100%;
+    aspect-ratio: 1/1;
     object-fit: cover;  " src="/hr/wp-content/uploads/2025/12/create_same_style_studio_photo_with_younger_guy_30_years_normal_look_and_croatian_can_look_midldle__e99c86vy07c57mjd38f6.jpg">
     </div>
 
     <!-- Right Content -->
     <div class="why-col why-content">
       <h2 style="color: #222; text-align:left; margin-left: 20px; font-family: 'Barlow', sans-serif; color:#222223;">
-      Dostatek prostoru pro všechno
+      Spazio sufficiente per tutto
       </h2>
 
       <div style="margin-left: 20px;" class="why-point">
-        <p><strong>Pánové, dopřejte svému rozkroku volně dýchat!
-</strong></p>Spodní prádlo NORIKS poskytuje oporu po celý den, aniž by ztrácelo tvar. Nebesky měkký modalový materiál se natahuje a perfektně sedí tam, kde má. Prostor pro vaše „vybavení“ je širší a flexibilnější, takže se nebudete cítit stísněně.</p>
+        <p><strong>Signori, lasciate respirare le vostre parti intime!
+</strong></p>L'intimo NORIKS offre supporto tutto il giorno senza perdere la forma. Il materiale modal ultra morbido si allunga e veste perfettamente dove deve. Lo spazio per la vostra "attrezzatura" è più ampio e flessibile, così non vi sentirete costretti.</p>
       </div>
 
-   
-   
+
+
     </div>
 
   </div>
@@ -521,9 +521,9 @@ Flexibilní střih pro silnější stehna
 
 <style>
     .most-popular {
-    
+
         padding-top: 20px;
-    
+
     }
 </style>
 
@@ -544,7 +544,7 @@ Flexibilní střih pro silnější stehna
 
 
 
-<?php 
+<?php
 /************ get products by category homepage  ************/
 
 $products = array();
@@ -577,7 +577,7 @@ if ( has_term( array( 'bokserice', 'orto-bokserice', 'bokserice-sastavi-paket' )
 
             // Get the product field (post object)
             $product_post = get_sub_field( 'product' );
-            
+
             if ( $product_post && $product_post instanceof WP_Post ) {
                 $product = wc_get_product( $product_post->ID );
                 if ( $product instanceof WC_Product ) {
@@ -838,7 +838,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <section style="display:block; max-width:1440px; margin:0 auto; padding-bottom:30px;" class="most-popular">
   <div class="container" style="padding-left:10px; padding-right:10px;">
-    <h2 class="section-title" style="margin-bottom:20px;">Připravené kombinace – jednoduše a rychle</h2>
+    <h2 class="section-title" style="margin-bottom:20px;">Combinazioni pronte - semplici e veloci</h2>
 
     <div class="products-grid slider-mobile">
       <?php foreach ($products as $index => $product): ?>
@@ -983,7 +983,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="product-info">
-             
+
               <h3 class="product-name"><?php echo esc_html($product_name); ?></h3>
 
               <div class="price">
@@ -1023,18 +1023,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-  
-  
+
+
   <style>
-      
+
       .comparison-section-gray  {
          border-radius: 5px;
         }
-              
+
       .comparison-intro-gray  {
            margin-bottom: 0;
         }
-      
+
   </style>
   <div  style="background: #f9f9f9; padding-top: 30px;" >
 <section style="background: #f9f9f9; max-width: 1440px;" class="comparison-section comparison-section-gray">
@@ -1042,28 +1042,28 @@ document.addEventListener('DOMContentLoaded', function () {
     padding-right: 10px;" class="comparison-intro comparison-intro-gray ">
       <!--<h4 style="" class="highlight"><?php echo get_field("singlepp_content_standard_reviews_t1","options"); ?></h4>-->
       <h1 style="color:black;     margin-bottom: 4px;">
-          
+
           <?php if ( !has_term( array( 'bokserice', 'bokserice-sastavi-paket' ), 'product_cat', get_the_ID() ) ): ?>
-          
+
           <?php echo get_field("singlepp_content_standard_reviews_t2","options"); ?>
-          
+
           <?php else: ?>
-          
-          Nisi sam u potrazi za savršenim boksericama.
-          
+
+          Non sei solo alla ricerca dei boxer perfetti.
+
           <?php endif; ?>
-          
-          
+
+
           </h1>
     <p class="note" style="color: black; margin-top: 0px; margin-bottom: 5px;"><?php echo get_field("singlepp_content_standard_reviews_t3","options"); ?></p>
     </div>
   </section>
   </div>
-  
-  
+
+
   <style>
       @media (max-width: 768px) {
-          
+
           .basic-reviews-section  {
                padding-left: 0px;
                padding-right: 0px;
@@ -1076,15 +1076,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 line-height: 1.3;
             }
             .review {
-  
+
                 padding-bottom: 15px;
                 margin-bottom: 16px;
 
             }
       }
   </style>
-  
-  
+
+
   <style>
 .loader {
   border: 4px solid #f3f3f3;
@@ -1117,10 +1117,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<?php 
+<?php
   // ===== CONFIG: LANGUAGE & DATA =====
   $reviews_language = get_field("webshop_language", "options");
-  if (!$reviews_language) { $reviews_language = "EN"; }
+  if (!$reviews_language) { $reviews_language = "IT"; }
 
   // Detect if current product belongs to bokserice group
   $current_product_id = (function_exists('is_product') && is_product()) ? get_queried_object_id() : get_the_id();
@@ -1130,7 +1130,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if ( ! $is_bokserice_page )  {
     include get_stylesheet_directory() . '/auto_reviews/'.$reviews_language.'.php';
   } else {
-    include get_stylesheet_directory() . '/auto_reviews/CZ_bokserice.php';
+    include get_stylesheet_directory() . '/auto_reviews/IT_bokserice.php';
   }
 
   include get_stylesheet_directory() . '/auto_reviews/'.$reviews_language.'-2.php';
@@ -1295,9 +1295,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     return $reviews;
   }
-  
-  
-  
+
+
+
   /**
  * Avatar images rules:
  * - First $first_n reviews ALWAYS get an image (if available)
@@ -1355,9 +1355,9 @@ function assign_unique_avatars_first3_then_random_until30(
 
   return $reviews;
 }
-  
-  
-  
+
+
+
   /**
  * Assign avatars for first N reviews:
  * - Use each real image at most once (no repeats).
@@ -1479,8 +1479,8 @@ $auto_reviews_en   = assign_unique_avatars_first3_then_random_until30($auto_revi
 
 $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_pool, $daily_seed, 'shipping', 0);
 
-  
-  
+
+
 
   // ===== PAGINATION CHUNKS =====
   $initial_count = 18;   // show on load
@@ -1506,20 +1506,20 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
     <div class="reviews-tabs" style="display:flex;gap:18px;border-bottom:1px solid #cbc8c8;margin-bottom:18px;">
       <button type="button" class="reviews-tab is-active" data-tab="product"
         style="appearance:none;background:#00000008;border:1px solid #cbc8c8;border-bottom:0;padding:8px 14px;border-radius:0;font-weight:700;">
-        <?php echo esc_html__('Recenze produktu', 'your-textdomain'); ?> (692)
+        <?php echo esc_html__('Recensioni prodotto', 'your-textdomain'); ?> (692)
       </button>
       <button type="button" class="reviews-tab" data-tab="shipping"
         style="appearance:none;background:transparent;border:1px solid transparent;border-bottom:0;padding:8px 14px;border-radius:0;font-weight:700;">
-        <?php echo esc_html__('Recenze doručení', 'your-textdomain'); ?> (389)
+        <?php echo esc_html__('Recensioni spedizione', 'your-textdomain'); ?> (389)
       </button>
     </div>
 
     <!-- PRODUCT GRID (default visible) -->
     <div class="reviews-grid" id="reviews-grid-product">
       <?php if (!empty($initial_product)) : foreach ($initial_product as $review) :
-        $name  = $review['name'] ?? 'Anonymní';
+        $name  = $review['name'] ?? 'Anonimo';
         $text  = $review['text'] ?? '';
-        $title = !empty($review['product_title']) ? $review['product_title'] : 'Jedna Siva Majica';
+        $title = !empty($review['product_title']) ? $review['product_title'] : 'Una Maglietta Grigia';
         $url   = !empty($review['product_url'])   ? $review['product_url']   : '#';
         $stars = '★★★★★';
         $date_display = $review['assigned_date'] ?? '';
@@ -1542,7 +1542,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
               <div class="avatar">👤</div>
             <?php endif; ?>
             <div class="name"><?php echo esc_html($name); ?></div>
-            <span class="verified"><?php _e('Potvrđeno','your-textdomain'); ?></span>
+            <span class="verified"><?php _e('Verificato','your-textdomain'); ?></span>
           </div>
           <div class="content"><?php echo esc_html($text); ?></div>
         </article>
@@ -1552,9 +1552,9 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
     <!-- SHIPPING GRID (hidden initially) -->
     <div class="reviews-grid" id="reviews-grid-shipping" style="display:none;">
       <?php if (!empty($initial_ship)) : foreach ($initial_ship as $review) :
-        $name  = $review['name'] ?? 'Anonymní';
+        $name  = $review['name'] ?? 'Anonimo';
         $text  = $review['text'] ?? '';
-        $title = !empty($review['product_title']) ? $review['product_title'] : 'Jedna Siva Majica';
+        $title = !empty($review['product_title']) ? $review['product_title'] : 'Una Maglietta Grigia';
         $url   = !empty($review['product_url'])   ? $review['product_url']   : '#';
         $stars = '★★★★★';
         $date_display = $review['assigned_date'] ?? '';
@@ -1579,7 +1579,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
               <div class="avatar">👤</div>
             <?php endif; ?>
             <div class="name"><?php echo esc_html($name); ?></div>
-            <span class="verified"><?php _e('Potvrđeno','your-textdomain'); ?></span>
+            <span class="verified"><?php _e('Verificato','your-textdomain'); ?></span>
           </div>
           <?php if (!empty($review['headline'])) : ?>
             <div class="headline"><?php echo esc_html($review['headline']); ?></div>
@@ -1596,7 +1596,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
     <div class="cta-button" style="background:transparent;padding:0;justify-content:left;">
       <a class="cta-button2 button button--xl"
          style="margin:0 auto;text-align:left;background:black;font-family:'Roboto',sans-serif;color:#fff;text-transform:none;font-size:15px;padding:10px 25px;"
-         href="#">Načíst více</a>
+         href="#">Carica altro</a>
     </div>
     <div id="reviews-loading" style="display:none;text-align:center;padding:15px;">
       <div class="loader"></div>
@@ -1658,8 +1658,8 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
         article.className = 'review-card is-new';
 
         const url       = review.product_url   || '#';
-        const title     = review.product_title || 'Jedna Siva Majica';
-        const name      = review.name          || 'Anonymní';
+        const title     = review.product_title || 'Una Maglietta Grigia';
+        const name      = review.name          || 'Anonimo';
         const text      = review.text          || '';
         const headline  = review.headline      || '';
         const date      = review.assigned_date || '';
@@ -1674,7 +1674,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
           <div class="identity">
             ${avatarHtml(avatarUrl)}
             <div class="name">${esc(name)}</div>
-            <span class="verified"><?php _e('Potvrđeno','your-textdomain'); ?></span>
+            <span class="verified"><?php _e('Verificato','your-textdomain'); ?></span>
           </div>
           ${headline ? `<div class="headline">${esc(headline)}</div>` : ''}
           <div class="content">${esc(text)}</div>
@@ -1778,13 +1778,13 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
 
 /* Identity */
 .review-card .identity{
-    
+
   display:flex;
   align-items:flex-start;   /* ⬅️ top-align items */
   gap:12px;
   margin:2px 0 12px;
-  
-  
+
+
 }
 .review-card .avatar{
   width:32px; height:32px;
@@ -1910,7 +1910,7 @@ $auto_reviews_ship = assign_unique_avatars_first_n($auto_reviews_ship, $avatar_p
 
 
 
-<?php 
+<?php
 $faq_list = get_field('faq_list', 'option');
 $faq_list2 = get_field('faq_list_2', 'option');
 $faq_list3 = get_field('faq_list_3', 'option');
@@ -1922,16 +1922,16 @@ $faq_list3 = get_field('faq_list_3', 'option');
 
 <section class="faq-section">
   <h2>Často kladené otázky</h2>
-  
 
-   <!-- first faq container --> 
+
+   <!-- first faq container -->
       <div class="faq-container">
          <h4 style="text-align:left; font-size: 1rem;
             font-weight: 700;
             color: #222223;
             margin-bottom: 10px; "><?php echo get_field('faq_title_1', 'option'); ?></h4>
-            <?php 
-              if( $faq_list && is_array($faq_list) ): 
+            <?php
+              if( $faq_list && is_array($faq_list) ):
                       foreach( $faq_list as $faq_item ):
               ?>
                     <div class="faq-item">
@@ -1947,17 +1947,17 @@ $faq_list3 = get_field('faq_list_3', 'option');
             endif;
             ?>
       </div>
-    <!-- first faq container --> 
-  
-     <!-- 2 faq container --> 
+    <!-- first faq container -->
+
+     <!-- 2 faq container -->
       <div class="faq-container">
           <br/>
          <h4 style="text-align:left; font-size: 1rem;
             font-weight: 700;
             color: #001e36;
             margin-bottom: 10px; "><?php echo get_field('faq_title_2', 'option'); ?></h4>
-            <?php 
-              if( $faq_list2 && is_array($faq_list2) ): 
+            <?php
+              if( $faq_list2 && is_array($faq_list2) ):
                       foreach( $faq_list2 as $faq_item ):
               ?>
                     <div class="faq-item">
@@ -1973,17 +1973,17 @@ $faq_list3 = get_field('faq_list_3', 'option');
             endif;
             ?>
       </div>
-        <!-- 2 faq container --> 
-  
-     <!-- 3 faq container --> 
+        <!-- 2 faq container -->
+
+     <!-- 3 faq container -->
       <div class="faq-container">
           <br/>
          <h4 style="text-align:left; font-size: 1rem;
             font-weight: 700;
             color: #001e36;
             margin-bottom: 10px; "><?php echo get_field('faq_title_3', 'option'); ?></h4>
-            <?php 
-              if( $faq_list3 && is_array($faq_list3) ): 
+            <?php
+              if( $faq_list3 && is_array($faq_list3) ):
                       foreach( $faq_list3 as $faq_item ):
               ?>
                     <div class="faq-item">
@@ -1999,8 +1999,8 @@ $faq_list3 = get_field('faq_list_3', 'option');
             endif;
             ?>
       </div>
-  <!-- 3 faq container --> 
-  
+  <!-- 3 faq container -->
+
 </section>
 
 <script>
@@ -2025,6 +2025,6 @@ $faq_list3 = get_field('faq_list_3', 'option');
     });
   });
 </script>
-		
+
 
 
