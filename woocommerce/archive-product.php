@@ -46,23 +46,23 @@ function is_active_menu_item( $path ) {
 <nav class="category-menu">
   <ul>
     <li class="<?php echo is_shop() ? 'active' : ''; ?>">
-      <a href="/cz/shop">Všechny produkty</a>
+      <a href="/it/shop">Tutti i prodotti</a>
     </li>
 
     <li class="<?php echo is_active_menu_item('/product-category/tricka') ? 'active' : ''; ?>">
-      <a href="/cz/product-category/tricka/">Trička</a>
+      <a href="/it/product-category/magliette/">Magliette</a>
     </li>
 
     <li class="<?php echo is_active_menu_item('/product-category/boxerky') ? 'active' : ''; ?>">
-      <a href="/cz/product-category/boxerky/">Boxerky</a>
+      <a href="/it/product-category/boxer/">Boxer</a>
     </li>
 
     <li class="<?php echo is_active_menu_item('/product-category/sady') ? 'active' : ''; ?>">
-      <a href="/cz/product-category/sady/">Sady</a>
+      <a href="/it/product-category/set/">Set</a>
     </li>
 
     <li class="<?php echo is_active_menu_item('/product-category/ponozky') ? 'active' : ''; ?>">
-      <a href="/cz/product-category/ponozky/">Ponožky</a>
+      <a href="/it/product-category/calzini/">Calzini</a>
     </li>
   </ul>
 </nav>
@@ -246,7 +246,7 @@ function is_active_menu_item( $path ) {
 <section class="one-banner-shop" style="position: relative; margin: 0 auto; padding: 0;">
 
   <img
-    src="/cz/wp-content/themes/noriks/img/noriks-shop.png"
+    src="/it/wp-content/themes/noriks/img/noriks-shop.png"
     style="display:block; width:100%; min-height:105px; border-radius:0;"
     alt=""
   >
@@ -361,7 +361,7 @@ if ( is_shop() ) {
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-3"]');
 
 // CATEGORY: /bokserice + ALL CHILD CATEGORIES
-} elseif ( is_product_category_or_child('boxerky') ) {
+} elseif ( is_product_category_or_child('boxer') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-2"]');
 
@@ -369,23 +369,23 @@ if ( is_shop() ) {
 } elseif (
     is_product_category_or_child('bestsellers') ||
     is_product_category_or_child('velke-baliky') ||
-    is_product_category_or_child('startovaci-balicek')
+    is_product_category_or_child('pacchetto-starter')
 ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-3"]');
 
 // CATEGORY: /majice + children
-} elseif ( is_product_category_or_child('tricka') ) {
+} elseif ( is_product_category_or_child('magliette') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2"]');
 
 // CATEGORY: /kompleti + children
-} elseif ( is_product_category_or_child('sady') ) {
+} elseif ( is_product_category_or_child('set') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-4-2"]');
 
 // CATEGORY: /carape + children
-} elseif ( is_product_category_or_child('ponozky') ) {
+} elseif ( is_product_category_or_child('calzini') ) {
 
     echo do_shortcode('[yith_wcan_filters slug="default-preset-2-4"]');
 

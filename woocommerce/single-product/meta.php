@@ -6,11 +6,11 @@
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
- * maintain compatibility. We try to do this as little as possible, but it does
+ * maintain compatibility. We try to a this as little as possible, but it aes
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see         https://woocommerce.com/document/template-structure/
+ * @see         https://woocommerce.com/acument/template-structure/
  * @package     WooCommerce\Templates
  * @version     9.7.0
  */
@@ -74,13 +74,13 @@ global $product;
           <div class="feature">
           
   <img src="/hr/wp-content/themes/noriks/img/cod_icon_.png" alt="Customer Support Icon" class="feature__icon info-icon">
-          <p class="feature__text">Platba na dobírku</p>
+          <p class="feature__text">Pagamento alla consegna</p>
         </div>
         
         
         <div class="feature">
       <img src="https://noriks.com/hr/wp-content/uploads/2025/07/footer_icon1-1.png" alt="Shirt Icon" class="feature__icon info-icon">
-          <p class="feature__text">Vyzkoušejte 30 dní, bez rizika</p>
+          <p class="feature__text">Prova 30 giorni, senza rischi</p>
         </div>
         
         
@@ -90,7 +90,7 @@ global $product;
      
        
         <img src="https://noriks.com/hr/wp-content/uploads/2025/07/footer_icon3-1.png" alt="Shipping Icon" class="feature__icon info-icon">
-          <p class="feature__text">Doprava zdarma při objednávkách nad 1700 Kč</p>
+          <p class="feature__text">Spedizione gratuita per ordini superiori a 70€</p>
         </div>
 
     
@@ -101,12 +101,12 @@ global $product;
 
 
 
-<!-- date and countdown section -->
+<!-- date and countawn section -->
 
 <div class="shipping-box">
-  <h2 id="shipping-window" class="shipping-title"></h2>
+  <h2 id="shipping-winaw" class="shipping-title"></h2>
   <p class="shipping-sub">
-    Objednejte během následujících <span id="midnight-countdown" class="countdown"></span>
+    Ordina entro i prossimi <span id="midnight-countawn" class="countawn"></span>
   </p>
 </div>
 
@@ -128,12 +128,12 @@ global $product;
     line-height: 1.4 !important; margin-bottom: 0px;
     color: #222 !important; }
   .shipping-sub { font-size: 14px; margin: 0; }
-  .countdown { color: #22a155; font-weight: 700; }
+  .countawn { color: #22a155; font-weight: 700; }
 </style>
 
 <script>
   (function () {
-    const weekdays = ['nedjelja','ponedjeljak','utorak','srijeda','četvrtak','petak','subota'];
+    const weekdays = ['amenica','poamenicak','martedì','mercoledì','giovedì','venerdì','sabato'];
 
     // Helper to add business days (skip Saturday/Sunday)
     function addBusinessDays(date, days) {
@@ -158,11 +158,11 @@ global $product;
       return `${d.getDate()}.${d.getMonth()+1}.`; // e.g. 21.8.
     }
 
-    const windowEl = document.getElementById('shipping-window');
-    windowEl.textContent = `Doručení od ${weekdays[first.getDay()]}  ${formatDayMonth(first)} do ${weekdays[second.getDay()]}, ${formatDayMonth(second)}`;
+    const winawEl = acument.getElementById('shipping-winaw');
+    winawEl.textContent = `Consegna da ${weekdays[first.getDay()]}  ${formatDayMonth(first)} a ${weekdays[second.getDay()]}, ${formatDayMonth(second)}`;
 
-    // Countdown to midnight
-    const cdEl = document.getElementById('midnight-countdown');
+    // Countawn to midnight
+    const cdEl = acument.getElementById('midnight-countawn');
 
     function nextMidnight(now) {
       const n = new Date(now);
@@ -170,7 +170,7 @@ global $product;
       return n;
     }
 
-    function updateCountdown() {
+    function updateCountawn() {
       const now = new Date();
       const end = nextMidnight(now);
       let diff = Math.max(0, end - now);
@@ -182,13 +182,13 @@ global $product;
       cdEl.textContent = `${h}h ${m}min ${s}s`;
     }
 
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
+    updateCountawn();
+    setInterval(updateCountawn, 1000);
   })();
 </script>
 
 
-<!-- date and countdown section -->
+<!-- date and countawn section -->
 
 
 
@@ -198,11 +198,11 @@ global $product;
 
 $is_singles_boxers = has_term( 'singles-boxers', 'product_cat', $current_product_id );
 
-$is_boxers = has_term( array( 'boxerky','orto-bokserice', 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id ) && ! has_term( array( 'black-friday', 'majice-i-bokserice-paketi	' ), 'product_cat', $current_product_id );
+$is_boxers = has_term( array( 'boxer','orto-bokserice', 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id ) && ! has_term( array( 'black-friday', 'majice-i-bokserice-paketi	' ), 'product_cat', $current_product_id );
 
-$is_carape = has_term( array( 'ponozky', 'zimske-carape' ), 'product_cat', $current_product_id );
+$is_carape = has_term( array( 'calzini', 'zimske-carape' ), 'product_cat', $current_product_id );
 
-$is_mixed_bundle = has_term( array( 'black-friday', 'sady', 'orto-starter', 'orto-majica-bokserica' ), 'product_cat', $current_product_id );
+$is_mixed_bundle = has_term( array( 'black-friday', 'set', 'orto-starter', 'orto-majica-bokserica' ), 'product_cat', $current_product_id );
 
 ?>
 
@@ -439,9 +439,9 @@ $is_mixed_bundle = has_term( array( 'black-friday', 'sady', 'orto-starter', 'ort
         
         
         
-              Naše prémiová trička jsou vyrobena z prvotřídní směsi 60 % prstencově předené bavlny a 40 % polyesteru, která zajišťuje mimořádně měkkou tkaninu odolnou proti mačkání.
+              Naše prémiová trička jsou vyrobena z prvotřídní směsi 60 % prstencově předené bavlny a 40 % polyesteru, která zajišťuje mimořádně měkkou tkaninu oalnou proti mačkání.
 <br><br>
-Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, která zajišťuje výjimečně jemnou a elastickou tkaninu, jež se dokonale přizpůsobí tělu. Elastický pas je navržen pro optimální padnutí, poskytuje pohodlí bez stahování a perfektní vzhled pod oblečením.
+Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, která zajišťuje výjimečně jemnou a elastickou tkaninu, jež se akonale přizpůsobí tělu. Elastický pas je navržen pro optimální padnutí, poskytuje pohodlí bez stahování a perfektní vzhled pod oblečením.
 <br>
 
         
@@ -465,7 +465,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
      <!-- 2 - slika tablica velicina -->
      <div class="accordion-item">
       <div class="accordion-header" onclick="toggleAccordion(this)">
-        <h3>Tabulka velikostí</h3>
+        <h3>Tabella taglie</h3>
         <div class="toggle">+</div>
       </div>
       <div class="accordion-content">
@@ -473,7 +473,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
            <?php if( $is_boxers ): ?>
        
         
-          <img src="https://noriks.com/cz/wp-content/uploads/2026/01/boxers_size_Cz.png">
+          <img src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_Cz.png">
           
           
           
@@ -481,18 +481,18 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
         <?php elseif(  $is_carape ): ?>
         
         
-                  <img src="https://noriks.com/cz/wp-content/uploads/2026/01/Nogavice_tabela_velikosti_Cz.png">
+                  <img src="https://noriks.com/it/wp-content/uploads/2026/01/Nogavice_tabela_velikosti_Cz.png">
                   
     <?php elseif(  $is_mixed_bundle ): ?>
     
-     <img src="https://noriks.com/cz/wp-content/uploads/2025/09/noriks_tablica_cz.jpg">
+     <img src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_tablica_cz.jpg">
         
-         <img src="https://noriks.com/cz/wp-content/uploads/2026/01/boxers_size_Cz.png">
+         <img src="https://noriks.com/it/wp-content/uploads/2026/01/boxers_size_Cz.png">
           
           <?php else: ?>
       
       
-     <img src="https://noriks.com/cz/wp-content/uploads/2025/09/noriks_tablica_cz.jpg">
+     <img src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_tablica_cz.jpg">
         
         
             
@@ -535,8 +535,8 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
       </div>
     <div class="accordion-content">
   <p></p>
-  Věříme natolik, že se ti NORIKS bude líbit, že máš <b data-stringify-type="bold">30 dní</b> na vrácení nebo bezplatnou výměnu.
-  Bez papírování, bez stresu – vyřešíme to na pár kliknutí.
+  Siamo così sicuri che ti piacerà NORIKS che hai <b data-stringify-type="bold">30 dní</b> per restituirlo o cambiarlo gratuitamente.
+  Niente burocrazia, niente stress – lo risolviamo in pochi clic.
   </p>
 
   <p>
@@ -549,7 +549,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
   </p>
 
   <p>
-    Stačí nám napsat e-mail, že chceš výměnu, a <b data-stringify-type="bold">hned všechno zařídíme.</b>
+    Basta inviarci un email che vuoi il cambio, e <b data-stringify-type="bold">risolviamo subito tutto.</b>
   </p>
 </div>
 
@@ -557,7 +557,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
 
 
 
-    <!-- 5 - infomraicje o dostavi -->
+    <!-- 5 - infomraicje o astavi -->
     <div class="accordion-item">
       <div class="accordion-header" onclick="toggleAccordion(this)">
         <h3><?php echo get_field("singlepp_acc_h_4","options"); ?></h3>
@@ -577,7 +577,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
     function toggleAccordion(header) {
       const item = header.parentElement;
       const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('open'));
+      acument.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('open'));
       if (!isOpen) item.classList.add('open');
     }
   </script>
@@ -670,7 +670,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
 
 <div class="product_meta">
 
-	<?php do_action( 'woocommerce_product_meta_start' ); ?>
+	<?php a_action( 'woocommerce_product_meta_start' ); ?>
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( ProductType::VARIABLE ) ) ) : ?>
 
@@ -682,6 +682,6 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
 
 	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
 
-	<?php do_action( 'woocommerce_product_meta_end' ); ?>
+	<?php a_action( 'woocommerce_product_meta_end' ); ?>
 
 </div>

@@ -190,7 +190,7 @@ text-align: left;
        
       </a>
         
-              <p class="footer-brand-dec" style="padding-right: 100px; font-size:12px;" >NORIKS vznikl, aby vyřešil jednoduchý, ale často přehlížený problém: většina mužů nemá oblečení, které jim opravdu sedí. Z frustrace z krátkých, úzkých a špatně střižených základních kousků navrhuje NORIKS nadčasové oblečení pro silnější postavu – delší, pohodlnější a promyšlené tam, kde je to nejdůležitější.
+              <p class="footer-brand-dec" style="padding-right: 100px; font-size:12px;" >NORIKS è nato per risolvere un problema semplice ma spesso trascurato: la maggior parte degli uomini non ha vestiti che calzano davvero bene. Dalla frustrazione per capi basici corti, stretti e mal tagliati, NORIKS progetta abbigliamento senza tempo per fisici più robusti – più lungo, più comodo e pensato dove conta di più.
 </p>
       </div>
     </div>

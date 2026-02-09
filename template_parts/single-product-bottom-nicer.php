@@ -1,6 +1,6 @@
 
 <?php 
-if (  has_term( array( 'startovaci-balicek','orto-starter' ), 'product_cat', get_the_id() )  )   : 
+if (  has_term( array( 'pacchetto-starter','orto-starter' ), 'product_cat', get_the_id() )  )   : 
 ?>
 
 
@@ -11,7 +11,7 @@ if (  has_term( array( 'startovaci-balicek','orto-starter' ), 'product_cat', get
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-          <img style="" src="https://noriks.com/cz/wp-content/uploads/2026/01/starter-1_Cz.png">
+          <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-1_Cz.png">
       </div>
     </div>
 
@@ -72,7 +72,7 @@ PROČ LIDÉ VOLÍ STARTOVACÍ BALÍČEK?
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-           <img style="" src="https://noriks.com/cz/wp-content/uploads/2026/01/starter-2_cz.png">
+           <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-2_cz.png">
       </div>
     </div>
 
@@ -130,7 +130,7 @@ KOMBINACE, KTEROU NOSÍŠ KAŽDÝ DEN
     <!-- Left Video -->
     <div class="why-col">
       <div class="video-wrapper">
-          <img style="" src="https://noriks.com/cz/wp-content/uploads/2026/01/starter-3_cz.png">
+          <img style="" src="https://noriks.com/it/wp-content/uploads/2026/01/starter-3_cz.png">
       </div>
     </div>
 
@@ -185,7 +185,7 @@ NEJSNADNĚJŠÍ A NEJBEZPEČNĚJŠÍ ZAČÁTEK
 
 
 <?php 
-if (  has_term( array( 'tricka', 'orto-majice' ), 'product_cat', get_the_id() )  ||  has_term( 'sady', 'product_cat', get_the_id() )) : 
+if (  has_term( array( 'magliette', 'orto-majice' ), 'product_cat', get_the_id() )  ||  has_term( 'set', 'product_cat', get_the_id() )) : 
 ?>
 
 
@@ -201,7 +201,7 @@ if (  has_term( array( 'tricka', 'orto-majice' ), 'product_cat', get_the_id() ) 
         <video 
           autoplay muted loop playsinline 
           class="why-video">
-          <source src="https://noriks.com/cz/wp-content/uploads/2025/09/noriks_gif_cz_2-1.mp4" type="video/mp4">
+          <source src="https://noriks.com/it/wp-content/uploads/2025/09/noriks_gif_cz_2-1.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -352,7 +352,7 @@ if (  has_term( array( 'tricka', 'orto-majice' ), 'product_cat', get_the_id() ) 
 
 <!-- here we include new file BOXERIRICE-->
 
-<?php if ( has_term( array( 'boxerky', 'orto-bokserice' ), 'product_cat', get_the_ID() )  && !has_term( 'black-friday', 'product_cat', get_the_ID() ) ): ?>
+<?php if ( has_term( array( 'boxer', 'orto-bokserice' ), 'product_cat', get_the_ID() )  && !has_term( 'black-friday', 'product_cat', get_the_ID() ) ): ?>
 
 
 
@@ -429,7 +429,7 @@ Flexibilní střih pro silnější stehna
 
     <!-- Left Video -->
     <div class="why-col">
-       <img src="https://noriks.com/cz/wp-content/uploads/2026/01/prednosti-in-lastnosti2_cz.png">
+       <img src="https://noriks.com/it/wp-content/uploads/2026/01/prednosti-in-lastnosti2_cz.png">
     </div>
 
     <!-- Right Content -->
@@ -1124,7 +1124,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Detect if current product belongs to bokserice group
   $current_product_id = (function_exists('is_product') && is_product()) ? get_queried_object_id() : get_the_id();
-  $is_bokserice_page  = has_term( array( 'boxerky','orto-bokserice', 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id );
+  $is_bokserice_page  = has_term( array( 'boxer','orto-bokserice', 'bokserice-sastavi-paket' ), 'product_cat', $current_product_id );
 
   // Include review pools
   if ( ! $is_bokserice_page )  {

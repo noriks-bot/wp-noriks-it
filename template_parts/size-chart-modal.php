@@ -99,7 +99,7 @@
   <div  style="<?php if ( has_term( array( 'orto-starter', 'orto-majica-bokserica' ), 'product_cat', get_the_ID() ) ): ?>  display: block; <?php endif; ?>"
         class="size-chart-left">
       
-      <?php if ( has_term( array( 'boxerky', 'orto-bokserice' , 'bokserice-sastavi-paket' ), 'product_cat', get_the_ID() )   && 
+      <?php if ( has_term( array( 'boxer', 'orto-bokserice' , 'bokserice-sastavi-paket' ), 'product_cat', get_the_ID() )   && 
        !has_term( 'black-friday', 'product_cat', get_the_ID() )   ): ?>
       
     <img

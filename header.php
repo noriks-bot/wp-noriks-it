@@ -55,10 +55,10 @@ document.addEventListener('DOMContentLoaded', function () {
     return isNaN(num) ? NaN : num;
   }
 
-  // Formatter for Czech koruna with 0 decimals
-  const czk = new Intl.NumberFormat('cs-CZ', {
+  // Formatter for Euro with 0 decimals
+  const czk = new Intl.NumberFormat('it-IT', {
     style: 'currency',
-    currency: 'CZK',
+    currency: 'EUR',
     minimumFractionDigits: 0,
     maximumFractionDigits: 0
   });
@@ -136,18 +136,18 @@ document.addEventListener('DOMContentLoaded', function () {
 	<div class="top-header">
   <div class="marquee">
     <div class="marquee-content">
-      <span><a href="/cz/shop">Doprava zdarma pro objednávky nad 1700 Kč</a></span>
-      <span><a href="/cz/shop">30 dní bez rizika – vyzkoušej bez obav</a></span>
+      <span><a href="/it/shop">Spedizione gratuita per ordini superiori a 70€</a></span>
+      <span><a href="/it/shop">30 giorni senza rischi – prova senza preoccupazioni</a></span>
       <!--<span><a href="/hr/shop">Zimska ponuda: Do 70% popusta!</a></span>-->
 
       <!-- DUPLICATED for seamless infinite loop -->
-      <span><a href="/cz/shop">Doprava zdarma pro objednávky nad 1700 Kč</a></span>
-      <span><a href="/cz/shop">30 dní bez rizika – vyzkoušej bez obav</a></span>
+      <span><a href="/it/shop">Spedizione gratuita per ordini superiori a 70€</a></span>
+      <span><a href="/it/shop">30 giorni senza rischi – prova senza preoccupazioni</a></span>
      <!-- <span><a href="/hr/shop">Zimska ponuda: Do 70% popusta!</a></span>-->
       
        <!-- DUPLICATED for seamless infinite loop -->
-      <span><a href="/cz/shop">Doprava zdarma pro objednávky nad 1700 Kč</a></span>
-      <span><a href="/cz/shop">30 dní bez rizika – vyzkoušej bez obav</a></span>
+      <span><a href="/it/shop">Spedizione gratuita per ordini superiori a 70€</a></span>
+      <span><a href="/it/shop">30 giorni senza rischi – prova senza preoccupazioni</a></span>
      <!-- <span><a href="/hr/shop">Zimska ponuda: Do 70% popusta!</a></span>-->
     </div>
   </div>
@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function () {
           
           
         <?php if ( class_exists( 'WooCommerce' ) ) : ?>
-            <a class="header-cart" href="/cz/cart">
+            <a class="header-cart" href="/it/cart">
                 <div class="cart-icon">
                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="23" viewBox="0 0 26 23">
                     <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAXCAYAAAAV1F8QAAACM0lEQVR4AbRVPYsaURS9M07AXgURixR+dbtbS9ZSEIv8AbUTxb+w6exFLURQWxUUooWi4AciiDGdFoqIhE2tVVZEcDLngUM2mxlnwjrMee+8e8+9h3m84fGk83l4uBfv7+5EnWWky8jn84mzbzOafZ8RuB4zXUaFQoEMgkCC8IHAb2KUzWZFh8NBx+ORARwxrWaavujx8ZMYj8dZz2QySQAWiCEHfg2ajAqFIhkMBppOpzDhJCMOHDHkrpkgf9UonU6LTqeTXl5+USgUQg0DOGLIQcOCKoOqkdfrFROJBCt/evpC6/WaYwtpAEdMogQNtOBKUDUqlUpsy5bLJaVSKdnk0gwx5LCFxWLxEv7nzFerVVHpcblcrMjj8ZCSBjmI3G63ogYevN1uh+6msFgsxPf7/ZuaoPlwOCS+1WqB3xSdTof4yWTC7XY7TUbn85m63S4DuJai/X6P/49jp240GmmpoWAwSH6/nwMCgYCmmvF4zHTMqNfrsYXasFgsqN1uy0dc2g5uPp+rlbDcpTczajS+NlhUZbBarW+yNpvtTezvQLPZ/IEYM3p+/vlZ+tOxVoTZbKZcLocLT5BEQj6fF00mk0SV381mQ9vt9iMUzAgERxCzGmKxGB0OhxMQjUbVpCw3GAzYjEE2kvYc66swGo0EXBVKgj97ykb1ep07nU5S+n1e9KrVavLhkY3QvlwuY3oXVCqVV31eGUUiEU66WwjHdrVa0f8AtZlMhsLhsPw1cPwNAAD//6RURXgAAAAGSURBVAMAUxNB668Ak78AAAAASUVORK5CYII=" x="0" y="0" width="26" height="23"/>

@@ -47,9 +47,9 @@ get_header(); ?>
 
   <div class="hero__content">
     <!--<p class="hero__eyebrow">NOVO: NORIKS </p>-->
-    <h1 class="hero__title">Tričko, které řeší všechny problémy.</h1>
+    <h1 class="hero__title">La maglietta che risolve tutti i problemi.</h1>
 
-    <a class="hero__btn" href="/cz/shop">KOUPIT TEĎ</a>
+    <a class="hero__btn" href="/it/shop">ACQUISTA ORA</a>
   </div>
 </section>
 
@@ -171,19 +171,19 @@ get_header(); ?>
   
   <section class="collections">
   <div class="collections__header">
-    <h2 class="collections__title">Nakupujte podle kolekce</h2>
+    <h2 class="collections__title">Acquista per collezione</h2>
 
-    <a class="collections__cta" href="/cz/shop">
-      Všechny produkty <span aria-hidden="true">›</span>
+    <a class="collections__cta" href="/it/shop">
+      Tutti i prodotti <span aria-hidden="true">›</span>
     </a>
   </div>
 
   <div class="collections__grid">
     <!-- Card 1 -->
-    <a class="collection-card" href="/cz/product-category/tricka/">
+    <a class="collection-card" href="/it/product-category/magliette/">
       <div class="collection-card__media">
         <img
-          src="/cz/wp-content/themes/noriks/img/noriks-majice.jpeg"
+          src="/it/wp-content/themes/noriks/img/noriks-majice.jpeg"
           alt="Crew neck t-shirt"
         />
       </div>
@@ -191,10 +191,10 @@ get_header(); ?>
       <div class="collection-card__body">
         <div class="collection-card__text">
           <div class="collection-card__topline">
-            <h3 class="collection-card__name">Trička</h3>
+            <h3 class="collection-card__name">Magliette</h3>
           </div>
           <p class="collection-card__desc">
-Pohodlí po celý den. Bez vytahování.
+Comfort tutto il giorno. Senza tirare.
           </p>
         </div>
 
@@ -203,10 +203,10 @@ Pohodlí po celý den. Bez vytahování.
     </a>
 
     <!-- Card 2 -->
-    <a class="collection-card" href="/cz/product-category/boxerky/">
+    <a class="collection-card" href="/it/product-category/boxer/">
       <div class="collection-card__media">
         <img
-          src="/cz/wp-content/themes/noriks/img/noriks-boksarice.jpeg"
+          src="/it/wp-content/themes/noriks/img/noriks-boksarice.jpeg"
           alt="V-neck t-shirt"
         />
       </div>
@@ -214,10 +214,10 @@ Pohodlí po celý den. Bez vytahování.
       <div class="collection-card__body">
         <div class="collection-card__text">
           <div class="collection-card__topline">
-            <h3 class="collection-card__name">Boxerky</h3>
+            <h3 class="collection-card__name">Boxer</h3>
           </div>
           <p class="collection-card__desc">
-   Měkké. Prodyšné. Spolehlivé.
+   Morbidi. Traspiranti. Affidabili.
 
           </p>
         </div>
@@ -227,10 +227,10 @@ Pohodlí po celý den. Bez vytahování.
     </a>
 
     <!-- Card 3 -->
-    <a class="collection-card" href="/cz/product-category/sady/">
+    <a class="collection-card" href="/it/product-category/set/">
       <div class="collection-card__media">
         <img
-          src="/cz/wp-content/themes/noriks/img/noriks-kompleti.jpeg"
+          src="/it/wp-content/themes/noriks/img/noriks-kompleti.jpeg"
           alt="Long sleeve shirt"
         />
       </div>
@@ -238,11 +238,11 @@ Pohodlí po celý den. Bez vytahování.
       <div class="collection-card__body">
         <div class="collection-card__text">
           <div class="collection-card__topline">
-            <h3 class="collection-card__name">Sady</h3>
+            <h3 class="collection-card__name">Set</h3>
        
           </div>
           <p class="collection-card__desc">
-Nejlepší poměr ceny a kvality v setu.
+Il miglior rapporto qualità-prezzo in un set.
           </p>
         </div>
 
@@ -251,10 +251,10 @@ Nejlepší poměr ceny a kvality v setu.
     </a>
     
     <!-- Card 3 -->
-    <a class="collection-card" href="/cz/product-category/startovaci-balicek/">
+    <a class="collection-card" href="/it/product-category/pacchetto-starter/">
       <div class="collection-card__media">
         <img
-          src="/cz/wp-content/themes/noriks/img/starter-paket_.jpeg"
+          src="/it/wp-content/themes/noriks/img/starter-paket_.jpeg"
           alt="Long sleeve shirt"
         />
       </div>
@@ -262,12 +262,12 @@ Nejlepší poměr ceny a kvality v setu.
       <div class="collection-card__body">
         <div class="collection-card__text">
           <div class="collection-card__topline">
-            <h3 class="collection-card__name">Startovací balíček</h3>
+            <h3 class="collection-card__name">Pacchetto Starter</h3>
            
            
           </div>
           <p class="collection-card__desc">
-Vyzkoušej NORIKS výhodněji.
+Prova NORIKS a un prezzo conveniente.
 
           </p>
         </div>
@@ -659,8 +659,8 @@ a:hover {
       <?php echo get_field("homepage_section_2_t1"); ?>
     </h2>
 
-    <a class="collections__cta" href="/cz/shop">
-      Všechny produkty  <span aria-hidden="true">›</span>
+    <a class="collections__cta" href="/it/shop">
+      Tutti i prodotti  <span aria-hidden="true">›</span>
     </a>
   </div>
 

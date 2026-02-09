@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<h2 style="      font-size: 19px;
     line-height: 1.214;
-    font-weight: bold;  font-family: 'Inter', sans-serif;">Rekapitulace objednávky</h2>
+    font-weight: bold;  font-family: 'Inter', sans-serif;">Riepilogo ordine</h2>
     
     <div style="width: 100%; background: black; color:black; height: 1px;"class="line-separator"></div>
 

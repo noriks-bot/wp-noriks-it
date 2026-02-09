@@ -544,7 +544,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
         	<div id="order_review" class="woocommerce-checkout-review-order">
         	    
-        	    <h3 class="checkout-section-title">Rekapitulace objednávky</h3>
+        	    <h3 class="checkout-section-title">Riepilogo ordine</h3>
         	    
         	    <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
         	    
