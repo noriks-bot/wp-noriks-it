@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 14 14"
+  focusable="false"
+  aria-hidden="true"
+  class="es-tag-label"
+  fill="none"
+  stroke="#666666"
+>
+  <path
+    stroke-linecap="round"
+    d="M7.284 1.402h4.964a.35.35 0 0 1 .35.35v4.964a.7.7 0 0 1-.205.495L7.49 12.115a.7.7 0 0 1-.99 0L1.885 7.5a.7.7 0 0 1 0-.99L6.79 1.607a.7.7 0 0 1 .495-.205Z"
+  ></path>
+  <circle cx="9.1" cy="4.9" r="0.7"></circle>
+  <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M9.102 4.897h-.005v.005h.005z"
+  ></path>
+</svg>
