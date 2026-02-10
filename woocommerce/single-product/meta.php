@@ -10,7 +10,7 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see         https://woocommerce.com/acument/template-structure/
+ * @see         https://woocommerce.com/document/template-structure/
  * @package     WooCommerce\Templates
  * @version     9.7.0
  */
@@ -133,7 +133,7 @@ global $product;
 
 <script>
   (function () {
-    const weekdays = ['amenica','poamenicak','martedì','mercoledì','giovedì','venerdì','sabato'];
+    const weekdays = ['domenica','lunedì','martedì','mercoledì','giovedì','venerdì','sabato'];
 
     // Helper to add business days (skip Saturday/Sunday)
     function addBusinessDays(date, days) {
@@ -158,11 +158,11 @@ global $product;
       return `${d.getDate()}.${d.getMonth()+1}.`; // e.g. 21.8.
     }
 
-    const winawEl = acument.getElementById('shipping-winaw');
+    const winawEl = document.getElementById('shipping-winaw');
     winawEl.textContent = `Consegna da ${weekdays[first.getDay()]}  ${formatDayMonth(first)} a ${weekdays[second.getDay()]}, ${formatDayMonth(second)}`;
 
     // Countawn to midnight
-    const cdEl = acument.getElementById('midnight-countawn');
+    const cdEl = document.getElementById('midnight-countawn');
 
     function nextMidnight(now) {
       const n = new Date(now);
@@ -577,7 +577,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
     function toggleAccordion(header) {
       const item = header.parentElement;
       const isOpen = item.classList.contains('open');
-      acument.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('open'));
+      document.querySelectorAll('.accordion-item').forEach(el => el.classList.remove('open'));
       if (!isOpen) item.classList.add('open');
     }
   </script>
@@ -670,7 +670,7 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
 
 <div class="product_meta">
 
-	<?php a_action( 'woocommerce_product_meta_start' ); ?>
+	<?php do_action( 'woocommerce_product_meta_start' ); ?>
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( ProductType::VARIABLE ) ) ) : ?>
 
@@ -682,6 +682,6 @@ Boxerky NORIKS jsou vyrobeny z prvotřídní směsi 95 % modalu a 5 % elastanu, 
 
 	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
 
-	<?php a_action( 'woocommerce_product_meta_end' ); ?>
+	<?php do_action( 'woocommerce_product_meta_end' ); ?>
 
 </div>
