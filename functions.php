@@ -10,7 +10,6 @@ include(get_template_directory() . '/functions/cpts.php');
 include(get_template_directory() . '/functions/options.php');
 include(get_template_directory() . '/functions/single_product_mods.php');
 include(get_template_directory() . '/functions/discounts.php');
-include(get_template_directory() . '/functions/popup_upsell.php');
 
 
 
