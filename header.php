@@ -665,54 +665,59 @@ document.addEventListener('DOMContentLoaded', function () {
     <span class="language-close" onclick="closeLanguageModal()">&times;</span>
     <h3><?php  echo get_field("country_shop_list_POPUP_t1","options"); ?></h3>
    <div class="language-options">
- 
- 
-      
+
   <a href="/" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/eu.svg"><span>English (Europe)</span>
   </a>
-  
-<a href="/hr" class="language-option">
+
+  <a href="/hr" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/hr.svg"><span>Croatia (HR)</span>
   </a>
-  
-  <!--
-   <a disabled href="/hu" class="language-option">
+
+  <a href="/hu" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/hu.svg"><span>Hungary (HU)</span>
   </a>
-    <a href="/de" class="language-option">
-    <img src="https://static.devit.software/countries/flags/rectangle/de.svg"><span>Germany (DE)</span>
-  </a>
-  -->
 
   <a href="/pl" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/pl.svg"><span>Poland (PL)</span>
   </a>
+
   <a href="/sk" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/sk.svg"><span>Slovakia (SK)</span>
   </a>
+
   <a href="/cz" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/cz.svg"><span>Czech Republic (CZ)</span>
   </a>
-  <!--
+
   <a href="/ro" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/ro.svg"><span>Romania (RO)</span>
   </a>
-  -->
+
   <a href="/gr" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/gr.svg"><span>Greece (GR)</span>
   </a>
-  <!--
+
+  <a href="/bg" class="language-option">
+    <img src="https://static.devit.software/countries/flags/rectangle/bg.svg"><span>Bulgaria (BG)</span>
+  </a>
+
+  <a href="/it" class="language-option">
+    <img src="https://static.devit.software/countries/flags/rectangle/it.svg"><span>Italy (IT)</span>
+  </a>
+
   <a href="/si" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/si.svg"><span>Slovenia (SI)</span>
   </a>
-  -->
-  
-    <a href="https://www.noriksofficial.com/" class="language-option">
+
+  <a href="/de" class="language-option">
+    <img src="https://static.devit.software/countries/flags/rectangle/de.svg"><span>Germany (DE)</span>
+  </a>
+
+  <a href="https://www.noriksofficial.com/" class="language-option">
     <img src="https://static.devit.software/countries/flags/rectangle/us.svg"><span>English (USA)</span>
   </a>
-  
-  
+
 </div>
   </div>
 </div>
